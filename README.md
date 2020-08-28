@@ -10,9 +10,6 @@ Registro de usuarios, busqueda, modificacion y eliminacion.
 Consulta del signo chino
 
 En el Desarrollo de capa de cliente se utilizan jsp y servlets que hacen el trabajo de controlador de la
-aplicación.
-En el Desarrollo de la capa de negocio y persistencia se utiliza jdbc para el manejo de los datos.
--------------------------
+aplicación. 
 
 URL temporal: http://amb-horoscopo.usermia-j.elasticserver.co/login.jsp
--------------------------
