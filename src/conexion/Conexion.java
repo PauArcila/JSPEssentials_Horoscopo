@@ -16,11 +16,11 @@ import org.apache.commons.dbcp2.BasicDataSource;
 public class Conexion {
 		
 		
-		private String usr = "userHorus";
-		private String pwd = "d0OBPLWdug1aLaNb";
+		private String usr = "tuNombreDeUsuarioRoot";
+		private String pwd = "tuClaveDeUsuarioRoot";
 		private String driver ="com.mysql.cj.jdbc.Driver";
-		private String url = "jdbc:mysql://node1222-amb-horoscopo.usermia-j.elasticserver.co:3306/Horoscopo?serverTimezone=UTC";
-		//private String url = "jdbc:mysql://localhost:3306/horoscopo?serverTimezone=UTC";
+		private String url = "jdbc:mysql://tuUrlDeServidorBBDD:0000/TuNombreDeBBDD?serverTimezone=UTC";
+		//private String url = "jdbc:mysql://localhost:0000/TuNombreDeBBDD?serverTimezone=UTC";
 		private static Conexion dataSource;
 		private BasicDataSource basicDataSource = null;
 		
